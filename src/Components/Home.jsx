@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="text px-6 md:w-1/2 h-screen">
                     <h1 className="text-4xl font-bold text-gray-800 mb-4">Hey,</h1>
                     <h1 className="text-3xl font-semibold text-gray-700 leading-relaxed mb-6">
-                        Hi, I'm Syed Sufiyan,
+                        I'm Syed Sufiyan,
                         <br /> a Frontend Engineer
                         <br /> crafting seamless, responsive,
                         <br /> and user-focused web experiences.
