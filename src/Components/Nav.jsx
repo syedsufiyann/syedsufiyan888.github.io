@@ -15,7 +15,7 @@ const Nav = () => {
                     <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/">Home</Link></li>
                     <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/about">About</Link></li>
                     <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/projects">Projects</Link></li>
-                    <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/education">Education</Link></li>
+                    
                 </ul>
                 <div onClick={handleMenu} className="text-2xl cursor-pointer md:hidden">
                     {open ? <IoMdClose /> : <RiMenu3Fill />}
@@ -24,7 +24,7 @@ const Nav = () => {
                     <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/">Home</Link></li>
                     <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/about">About</Link></li>
                     <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/projects">Projects</Link></li>
-                    <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/education">Education</Link></li>
+                    
                 </ul>
             </nav>
         </div>
