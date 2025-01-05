@@ -1,9 +1,33 @@
-
+import { RiMenu3Fill } from "react-icons/ri";
+import { IoMdClose } from "react-icons/io";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 const Nav = () => {
+    const [open, setOpen] = useState(false)
+    const handleMenu = () => {
+        setOpen(!open);
+    }
     return (
-    <div className="bg-blue-600">
-        <h2 className="">Hola</h2>
-    </div>
+        <div className="w-screen h-auto bg-blue-950">
+            <nav className="max-w-[1000px] mx-auto bg-blue-950 text-gray-100 flex items-center justify-between p-4">
+                <p className="font-bold text-xl cursor-pointer"><Link to="/">sufiyan</Link></p>
+                <ul className="items-center gap-8 hidden md:flex">
+                    <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/">Home</Link></li>
+                    <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/about">About</Link></li>
+                    <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/projects">Projects</Link></li>
+                    <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/education">Education</Link></li>
+                </ul>
+                <div onClick={handleMenu} className="text-2xl cursor-pointer md:hidden">
+                    {open ? <IoMdClose /> : <RiMenu3Fill />}
+                </div>
+                <ul className={`items-center gap-8 absolute  left-0 bg-blue-800/[.7] w-screen h-auto flex flex-col top-14 py-12 md:hidden ease-in duration-300 z-10 ${open ? 'top-14' : 'top-[-450px]'}`}>
+                    <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/">Home</Link></li>
+                    <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/about">About</Link></li>
+                    <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/projects">Projects</Link></li>
+                    <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/education">Education</Link></li>
+                </ul>
+            </nav>
+        </div>
     )
 }
 export default Nav;

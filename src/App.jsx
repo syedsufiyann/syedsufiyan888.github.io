@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      {/* <Router/>*/}
-      <Nav/>
+      <Router/>
+      {/* <Nav/> */}
     </>
   )
 }
