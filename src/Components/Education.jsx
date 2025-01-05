@@ -1,7 +1,7 @@
 
 const Education = () => {
     return (
-        <>
+        <div className="p-2">
             <h2>Education...</h2>
             <ul>
                 <li>
@@ -18,7 +18,7 @@ const Education = () => {
                 </li>
             </ul>
 
-        </>
+        </div>
     )
 }
 export default Education;
