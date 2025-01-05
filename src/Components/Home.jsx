@@ -12,11 +12,12 @@ const Home = () => {
                 <div className="text px-6 md:w-1/2 h-screen">
                     <h1 className="text-4xl font-bold text-gray-800 mb-4">Hey,</h1>
                     <h1 className="text-3xl font-semibold text-gray-700 leading-relaxed mb-6">
-                        I'm Syed Sufiyan,<br />
-                        a Frontend Web Developer <br />
-                        specializing in <br />
-                        dynamic user interfaces.
+                        Hi, I'm Syed Sufiyan,
+                        <br /> a Frontend Engineer
+                        <br /> crafting seamless, responsive,
+                        <br /> and user-focused web experiences.
                     </h1>
+
                     <div className="flex items-center space-x-4">
                         <a href="https://github.com/syedsufiyan888" className="text-gray-700 hover:text-gray-900 transition-colors duration-200">
                             <FaGithub size={32} />
@@ -46,7 +47,7 @@ const Home = () => {
                     <div className="flex items-center space-x-2 mb-2">
                         <span className="text-gray-600"> - </span>
                         <a href="https://e-commerce-app-using-react.netlify.app/" target='_blank' className="text-blue-600 hover:underline">Live-Demo*</a>
-                        <a href="https://github.com/syedsufiyan888/todo-with-theme" target='_blank' className="text-blue-600 hover:underline">github*</a>
+                        <a href="https://github.com/syedsufiyan888/E-commerce" target='_blank' className="text-blue-600 hover:underline">github*</a>
                     </div>
                     <p className="text-gray-700">
                         Features / Fucntionaility:

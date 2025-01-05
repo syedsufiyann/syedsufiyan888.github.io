@@ -24,7 +24,7 @@ const Projects = () => {
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-gray-600"> - </span>
             <a href="https://e-commerce-app-using-react.netlify.app/" className="text-blue-600 hover:underline">Live-Demo*</a>
-            <a href="https://github.com/syedsufiyan888/todo-with-theme" className="text-blue-600 hover:underline">github*</a>
+            <a href="https://github.com/syedsufiyan888/E-commerce" className="text-blue-600 hover:underline">github*</a>
           </div>
           <p className="text-gray-700">
             Features / Fucntionaility:
