@@ -7,7 +7,7 @@ import ecommerce from './assets/ecommerce.png';
 const Projects = () => {
   return (
     <div id="projects" className="py-3 bg-gray-100">
-      <h2 className="text-2xl font-bold text-center mb-4">Featured Projects</h2>
+      <h2 className="text-2xl font-bold text-center mb-4">Projects</h2>
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Project 1 */}
         <div className="bg-white shadow-md rounded-lg p-6">

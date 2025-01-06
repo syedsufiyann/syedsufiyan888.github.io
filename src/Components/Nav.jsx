@@ -8,7 +8,7 @@ const Nav = () => {
         setOpen(!open);
     }
     return (
-        <div className="w-screen h-auto bg-blue-950 sticky top-0">
+        <div className="w-100 h-auto bg-blue-950 sticky top-0 overflow-hidden">
             <nav className="max-w-[1000px] mx-auto bg-blue-950 text-gray-100 flex items-center justify-between p-4">
                 <p className="font-bold text-xl cursor-pointer"><Link to="/">sufiyan</Link></p>
                 <ul className="items-center gap-8 hidden md:flex">
@@ -20,10 +20,10 @@ const Nav = () => {
                 <div onClick={handleMenu} className="text-2xl cursor-pointer md:hidden">
                     {open ? <IoMdClose /> : <RiMenu3Fill />}
                 </div>
-                <ul className={`items-center gap-8 absolute  left-0 bg-blue-800/[.7] w-screen h-auto flex flex-col top-14 py-12 md:hidden ease-in duration-300 z-10 ${open ? 'top-14' : 'top-[-450px]'}`}>
-                    <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/">Home</Link></li>
-                    <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/about">About</Link></li>
-                    <li className="cursor-pointer text-lg active:text-gray-500"><Link onClick={() => setOpen(false)} to="/projects">Projects</Link></li>
+                <ul className={`items-center gap-8 absolute  left-0 bg-blue-800/[.92]  w-screen h-auto flex flex-col top-14 py-12 md:hidden ease-in duration-300 z-10 ${open ? 'top-14' : 'top-[-450px]'}`}>
+                    <li className="cursor-pointer text-lg active:text-gray-500 text-xl"><Link onClick={() => setOpen(false)} to="/">Home</Link></li>
+                    <li className="cursor-pointer text-lg active:text-gray-500 text-xl"><Link onClick={() => setOpen(false)} to="/about">About</Link></li>
+                    <li className="cursor-pointer text-lg active:text-gray-500 text-xl"><Link onClick={() => setOpen(false)} to="/projects">Projects</Link></li>
                     
                 </ul>
             </nav>
