@@ -1,0 +1,44 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Or master, your main development branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18  # Or your Node.js version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages # checking out the gh-pages branch
+          path: gh-pages # checking it out in the gh-pages folder
+
+      - name: Copy build output to gh-pages branch
+        run: |
+          rm -rf gh-pages/*
+          cp -r dist/* gh-pages # Copying the build output from /dist to the root of gh-pages
+        
+      - name: Commit and push gh-pages branch
+        run: |
+          cd gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Deploy to gh-pages" || echo "No changes to commit" # Add || command to avoid failing if no changes
+          git push origin gh-pages
