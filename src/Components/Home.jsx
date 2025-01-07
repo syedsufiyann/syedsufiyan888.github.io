@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import ecommerce from './assets/ecommerce.png';
 
+
 const Home = () => {
     return (
 
