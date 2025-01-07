@@ -16,10 +16,10 @@ const Home = () => {
                 </h1>
 
                 <div className="flex items-center space-x-4">
-                    <a href="https://github.com/syedsufiyan888" className="text-gray-700 hover:text-gray-900 transition-colors duration-200">
+                    <a href="https://github.com/syedsufiyan888" target='_blank' className="text-gray-700 hover:text-gray-900 transition-colors duration-200">
                         <FaGithub size={32} />
                     </a>
-                    <a href="https://www.linkedin.com/in/syedsufiyan888" className="text-gray-700 hover:text-gray-900 transition-colors duration-200">
+                    <a href="https://www.linkedin.com/in/syedsufiyan888"  target='_blank' className="text-gray-700 hover:text-gray-900 transition-colors duration-200">
                         <FaLinkedin size={32} />
                     </a>
                     <a href="https://drive.google.com/file/d/10dKZCteb0YAP2soVFLQsGJ6HpQOAX0cg/view?usp=drivesdk"
@@ -32,10 +32,10 @@ const Home = () => {
             </div>
             <div className="bg-slate-100 shadow-md rounded-lg p-6 my-8">
                 <h2 className='text-center p-4 text-lg font-bold'>Featured Project</h2>
-                <a href="https://e-commerce-app-using-react.netlify.app/" className="block">
+                <a href="https://e-commerce-app-using-react.netlify.app/"  target='_blank' className="block">
                     <img
                         src={ecommerce}
-                        alt="Todo Web App"
+                        alt="Ecommerce App image"
                         className="mb-4 rounded-md w-full object-cover h-48"
                     />
                     <h3 className="text-xl font-semibold mb-2">

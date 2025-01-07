@@ -1,5 +1,4 @@
 import projectTodo from './assets/project-todo.png';
-import projectTictac from './assets/project-tictac.png';
 import ecommerce from './assets/ecommerce.png';
 import moviedb from './assets/moviedb.png';
 import portfolio from './assets/portfolio.png';
@@ -13,10 +12,10 @@ const Projects = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Project 1 */}
         <div className="bg-white shadow-md rounded-lg p-6">
-          <a href="https://e-commerce-app-using-react.netlify.app/" className="block">
+          <a href="https://e-commerce-app-using-react.netlify.app/" target='_blank'  className="block">
             <img
               src={ecommerce}
-              alt="Todo Web App"
+              alt="ecommerce app image"
               className="mb-4 rounded-md w-full object-cover h-48"
             />
             <h3 className="text-xl font-semibold mb-2">
@@ -25,8 +24,8 @@ const Projects = () => {
           </a>
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-gray-600"> - </span>
-            <a href="https://e-commerce-app-using-react.netlify.app/" className="text-blue-600 hover:underline">Live-Demo*</a>
-            <a href="https://github.com/syedsufiyan888/E-commerce" className="text-blue-600 hover:underline">github*</a>
+            <a href="https://e-commerce-app-using-react.netlify.app/" target='_blank'  className="text-blue-600 hover:underline">Live-Demo*</a>
+            <a href="https://github.com/syedsufiyan888/E-commerce" target='_blank'  className="text-blue-600 hover:underline">github*</a>
           </div>
           <p className="text-gray-700">
             Features / Fucntionaility:
@@ -40,10 +39,10 @@ const Projects = () => {
             </ol>
           </p>
         </div>
-        
+
         {/* Project 2 */}
         <div className="bg-white shadow-md rounded-lg p-6">
-          <a href="https://movie-database-with-react.netlify.app/" className="block">
+          <a href="https://movie-database-with-react.netlify.app/" target='_blank'  className="block">
             <img
               src={moviedb}
               alt="moviedb"
@@ -55,8 +54,8 @@ const Projects = () => {
           </a>
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-gray-600"> - </span>
-            <a href="https://movie-database-with-react.netlify.app/" className="text-blue-600 hover:underline">Live-Demo*</a>
-            <a href="https://github.com/syedsufiyan888/movie-database" className="text-blue-600 hover:underline">github*</a>
+            <a href="https://movie-database-with-react.netlify.app/" target='_blank'  className="text-blue-600 hover:underline">Live-Demo*</a>
+            <a href="https://github.com/syedsufiyan888/movie-database"  target='_blank' className="text-blue-600 hover:underline">github*</a>
           </div>
           <p className="text-gray-700">
             Features / Fucntionaility:
@@ -71,10 +70,10 @@ const Projects = () => {
         </div>
         {/* Project 3 */}
         <div className="bg-white shadow-md rounded-lg p-6">
-          <a href="https://syedsufiyan.netlify.app/" className="block">
+          <a href="https://syedsufiyan.netlify.app/" target='_blank'  className="block">
             <img
               src={portfolio}
-              alt="Todo Web App"
+              alt="portfolio"
               className="mb-4 rounded-md w-full object-cover h-48"
             />
             <h3 className="text-xl font-semibold mb-2">
@@ -83,8 +82,8 @@ const Projects = () => {
           </a>
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-gray-600"> - </span>
-            <a href="https://syedsufiyan.netlify.app/" className="text-blue-600 hover:underline">Live-Demo*</a>
-            <a href="https://github.com/syedsufiyan888/react-portfolio" className="text-blue-600 hover:underline">github*</a>
+            <a href="https://syedsufiyan.netlify.app/" target='_blank'  className="text-blue-600 hover:underline">Live-Demo*</a>
+            <a href="https://github.com/syedsufiyan888/react-portfolio" target='_blank'  className="text-blue-600 hover:underline">github*</a>
           </div>
           <p className="text-gray-700">
             Features / Fucntionaility:
@@ -96,47 +95,30 @@ const Projects = () => {
         </div>
         {/* Project 4 */}
         <div className="bg-white shadow-md rounded-lg p-6">
-          <a href="https://todo-with-theme.netlify.app/" className="block">
+          <a href="https://todo-with-theme.netlify.app/" target='_blank'  className="block">
             <img
               src={projectTodo}
               alt="Todo Web App"
               className="mb-4 rounded-md w-full object-cover h-48"
             />
             <h3 className="text-xl font-semibold mb-2">
-              Simple ToDo Web App<span className='text-sm'> using ReactJS</span>
+              Simple ToDo Web App<span className='text-sm'> using Vanilla JavaScript </span>
             </h3>
           </a>
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-gray-600"> - </span>
-            <a href="https://todo-with-theme.netlify.app/" className="text-blue-600 hover:underline">Live-Demo*</a>
-            <a href="https://github.com/syedsufiyan888/todo-with-theme" className="text-blue-600 hover:underline">github*</a>
+            <a href="https://todo-with-theme.netlify.app/" target='_blank'  className="text-blue-600 hover:underline">Live-Demo*</a>
+            <a href="https://github.com/syedsufiyan888/todo-with-theme" target='_blank'  className="text-blue-600 hover:underline">github*</a>
           </div>
           <p className="text-gray-700">
-            This is to-do web app built using JavaScript and HTML/CSS with local
-            storage and theme changing functionality.
+            Features / Fucntionaility:
+            <ol>
+              <li>- This is a to-do web app built using JavaScript and HTML/CSS.</li>
+              <li>- It includes local storage functionality for saving tasks persistently.</li>
+              <li>- Theme-changing functionality allows users to switch between light and dark modes.</li>
+            </ol>
           </p>
-        </div>
-
-        {/* Project 5 */}
-        <div className="bg-white shadow-md rounded-lg p-6">
-          <a href="https://tictactoe-with-reactjs.netlify.app/" className="block">
-            <img
-              src={projectTictac}
-              alt="Tic Tac Toe Game"
-              className="mb-4 rounded-md w-full object-cover h-48"
-            />
-            <h3 className="text-xl font-semibold mb-2">
-              Tic-Tac-Toe Game
-            </h3>
-          </a>
-          <div className="flex items-center space-x-2 mb-2">
-            <span className="text-gray-600"> - </span>
-            <a href="https://github.com/syedsufiyan888/tic-tac-toe-game" className="text-blue-600 hover:underline">github*</a>
-          </div>
-          <p className="text-gray-700">
-            Simple Tic Tac Toe game built using JavaScript, React JS and HTML/CSS.
-          </p>
-        </div>
+        </div>        
       </div>
       <h4 className="text-center mt-8 text-gray-500">More projects coming soon...</h4>
     </div>
