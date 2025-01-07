@@ -5,7 +5,7 @@ import ecommerce from './assets/ecommerce.png';
 const Home = () => {
     return (
 
-        <div id="intro" className="flex flex-col md:flex-row items-center bg-gray-50 px-10 ">
+        <div id="intro" className="max-w-[1300px] mx-auto flex flex-col md:flex-row items-center bg-gray-50 px-10 ">
             <div className="text  md:w-1/2 my-8 ">
                 <h1 className="text-4xl font-bold text-gray-800 mb-4">Hey,</h1>
                 <h1 className="text-3xl font-semibold text-gray-700 leading-relaxed mb-6">

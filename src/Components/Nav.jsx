@@ -9,7 +9,7 @@ const Nav = () => {
     }
     return (
         <div className="w-100 h-auto bg-blue-950 sticky top-0">
-            <nav className="max-w-[1000px] mx-auto bg-blue-950 text-gray-100 flex items-center justify-between p-4">
+            <nav className="max-w-[1300px] mx-auto bg-blue-950 text-gray-100 flex items-center justify-between p-4">
                 <p className="font-bold text-xl cursor-pointer"><Link to="/">sufiyan</Link></p>
                 <ul className="items-center gap-8 hidden md:flex">
                     <li className="cursor-pointer text-lg hover:text-gray-500"><Link to="/">Home</Link></li>
