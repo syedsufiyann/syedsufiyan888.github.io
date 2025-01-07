@@ -31,7 +31,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="bg-slate-100 shadow-md rounded-lg p-6 my-8">
-                <h2 className='text-center p-4 text-lg font-bold'>Featured Projects</h2>
+                <h2 className='text-center p-4 text-lg font-bold'>Featured Project</h2>
                 <a href="https://e-commerce-app-using-react.netlify.app/" className="block">
                     <img
                         src={ecommerce}

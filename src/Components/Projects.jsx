@@ -37,45 +37,11 @@ const Projects = () => {
               <li>- Efficient API fetching for real-time updates</li>
               <li>- Incorporates third-party libraries like <code>react-loader-spinner</code> for loading animations</li>
               <li>- Uses <code>react-router-dom</code> for efficient client-side routing</li>
-
-              <li></li>
             </ol>
-
           </p>
         </div>
+        
         {/* Project 2 */}
-        <div className="bg-white shadow-md rounded-lg p-6">
-          <a href="https://e-commerce-app-using-react.netlify.app/" className="block">
-            <img
-              src={portfolio}
-              alt="Todo Web App"
-              className="mb-4 rounded-md w-full object-cover h-48"
-            />
-            <h3 className="text-xl font-semibold mb-2">
-              E-commerce App <span className='text-sm'>using ReactJS</span>
-            </h3>
-          </a>
-          <div className="flex items-center space-x-2 mb-2">
-            <span className="text-gray-600"> - </span>
-            <a href="https://syedsufiyan.netlify.app/" className="text-blue-600 hover:underline">Live-Demo*</a>
-            <a href="https://github.com/syedsufiyan888/E-commerce" className="text-blue-600 hover:underline">github*</a>
-          </div>
-          <p className="text-gray-700">
-            Features / Fucntionaility:
-            <ol>
-              <li>- Fetches products dynamically using API with async/await</li>
-              <li>- Implements Single Page Application (SPA) for seamless navigation</li>
-              <li>- Utilizes local storage to persist user data and preferences</li>
-              <li>- Efficient API fetching for real-time updates</li>
-              <li>- Incorporates third-party libraries like <code>react-loader-spinner</code> for loading animations</li>
-              <li>- Uses <code>react-router-dom</code> for efficient client-side routing</li>
-
-              <li></li>
-            </ol>
-
-          </p>
-        </div>
-        {/* Project 3 */}
         <div className="bg-white shadow-md rounded-lg p-6">
           <a href="https://movie-database-with-react.netlify.app/" className="block">
             <img
@@ -98,8 +64,33 @@ const Projects = () => {
               <li>- Fetches movie data dynamically using an external API with <code>async/await</code></li>
               <li>- Implements Single Page Application (SPA) for seamless navigation and user experience</li>
               <li>- Displays detailed movie information (e.g., overview) in an expandable card upon selection</li>
-              <li>- Efficient API integration for real-time updates and smooth data fetching</li>             
-              <li>- Responsive and user-friendly interface designed to enhance movie browsing experience</li>             
+              <li>- Efficient API integration for real-time updates and smooth data fetching</li>
+              <li>- Responsive and user-friendly interface designed to enhance movie browsing experience</li>
+            </ol>
+          </p>
+        </div>
+        {/* Project 3 */}
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <a href="https://syedsufiyan.netlify.app/" className="block">
+            <img
+              src={portfolio}
+              alt="Todo Web App"
+              className="mb-4 rounded-md w-full object-cover h-48"
+            />
+            <h3 className="text-xl font-semibold mb-2">
+              Portfolio Website <span className='text-sm'>using ReactJS</span>
+            </h3>
+          </a>
+          <div className="flex items-center space-x-2 mb-2">
+            <span className="text-gray-600"> - </span>
+            <a href="https://syedsufiyan.netlify.app/" className="text-blue-600 hover:underline">Live-Demo*</a>
+            <a href="https://github.com/syedsufiyan888/react-portfolio" className="text-blue-600 hover:underline">github*</a>
+          </div>
+          <p className="text-gray-700">
+            Features / Fucntionaility:
+            <ol>
+              <li>- Implements Single Page Application (SPA) for seamless navigation</li>
+              <li>- Uses <code>react-router-dom</code> for efficient client-side routing</li>
             </ol>
           </p>
         </div>
@@ -112,11 +103,12 @@ const Projects = () => {
               className="mb-4 rounded-md w-full object-cover h-48"
             />
             <h3 className="text-xl font-semibold mb-2">
-              Simple ToDo Web App
+              Simple ToDo Web App<span className='text-sm'> using ReactJS</span>
             </h3>
           </a>
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-gray-600"> - </span>
+            <a href="https://todo-with-theme.netlify.app/" className="text-blue-600 hover:underline">Live-Demo*</a>
             <a href="https://github.com/syedsufiyan888/todo-with-theme" className="text-blue-600 hover:underline">github*</a>
           </div>
           <p className="text-gray-700">
