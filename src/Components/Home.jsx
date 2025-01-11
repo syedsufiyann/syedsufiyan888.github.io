@@ -10,7 +10,7 @@ const Home = () => {
                 <h1 className="text-4xl font-bold text-gray-800 mb-4">Hey,</h1>
                 <h1 className="text-3xl font-semibold text-gray-700 leading-relaxed mb-6">
                     I'm Syed Sufiyan,
-                    <br /> a Frontend Engineer
+                    <br /> a Frontend Developer
                     <br /> crafting seamless, responsive,
                     <br /> and user-focused web experiences.
                 </h1>
