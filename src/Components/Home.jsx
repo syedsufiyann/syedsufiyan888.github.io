@@ -22,7 +22,7 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/syedsufiyan888"  target='_blank' className="text-gray-700 hover:text-gray-900 transition-colors duration-200">
                         <FaLinkedin size={32} />
                     </a>
-                    <a href="https://drive.google.com/file/d/10dKZCteb0YAP2soVFLQsGJ6HpQOAX0cg/view?usp=drivesdk"
+                    <a href="https://drive.google.com/file/d/19rX1R20pBoV1LPq9J6Zc7NOBeWCHIA-D/view?usp=sharing"
                         target="_blank" rel="noopener noreferrer">
                         <button className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded transition-colors duration-200">
                             Resume
