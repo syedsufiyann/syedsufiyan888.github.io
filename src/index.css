@@ -5,3 +5,19 @@
 ::-webkit-scrollbar {
     display: none;
 }
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
+  background-color: #111;  /* dark background */
+  color: #fff;             /* text stands out */
+  font-family: Arial, sans-serif;
+}
+
+.csoon {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
