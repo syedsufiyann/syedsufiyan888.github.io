@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -9,10 +9,10 @@ body {
   margin: 0;
   height: 100vh;
   display: flex;
-  justify-content: center; /* horizontal centering */
-  align-items: center;     /* vertical centering */
-  background-color: #111;  /* dark background */
-  color: #fff;             /* text stands out */
+  justify-content: center; 
+  align-items: center;     
+  background-color: #111;  
+  color: #fff;             
   font-family: Arial, sans-serif;
 }
 
@@ -20,4 +20,4 @@ body {
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-}
+} */
