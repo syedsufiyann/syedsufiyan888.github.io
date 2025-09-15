@@ -3,22 +3,22 @@ import ecommerce from './assets/ecommerce.png';
 
 const Home = () => {
     return (
-        <div id="intro" className="max-w-[1300px] mx-auto flex flex-col md:flex-row items-center bg-gray-50 px-14 ">
+        <div id="intro" className="max-w-[1300px] mx-auto flex flex-col md:flex-row items-center bg-gray-50 px-8 ">
             {/* Left Section: Intro and Links */}
             <div className="text md:w-1/2 my-8 ">
                 {/* Mobile: Detailed Intro */}
-                <div className="block md:hidden px-4 py-6 max-w-sm mx-auto">
-                    <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3 leading-tight">
+                <div className="block md:hidden py-6 max-w-sm mx-auto">
+                    <h1 className="text-5xl sm:text-4xl font-bold text-gray-800 mb-3 leading-tight">
                         Hey,
                     </h1>
-                    <h1 className="text-lg sm:text-2xl font-semibold text-gray-700 leading-relaxed mb-4">
+                    <h1 className="text-2xl sm:text-xl font-semibold text-gray-700 leading-relaxed mb-4">
                         I'm Syed Sufiyan,
                         <br />a passionate Frontend Developer
                         <br />crafting seamless, responsive,
                         <br />and user-centric web experiences.
                     </h1>
                     <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-blue-500">
-                        <div className="text-gray-600 text-sm leading-relaxed space-y-2">
+                        <div className="text-gray-600 text-base leading-relaxed space-y-2">
                             <p className="font-medium">✨ What I bring to the table:</p>
                             <p>• Building fully responsive websites that work flawlessly on all devices</p>
                             <p>• Creating user-centric designs focused on great experiences</p>
@@ -27,6 +27,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+
                 {/* Desktop: Simple Intro */}
                 <div className="hidden md:block">
                     <h1 className="text-3xl font-bold text-gray-800 mb-4">Hey,</h1>
