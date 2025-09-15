@@ -7,8 +7,8 @@ const Home = () => {
             {/* Left Section: Intro and Links */}
             <div className="text md:w-1/2 my-8 ">
                 {/* Mobile: Detailed Intro */}
-                <div className="block md:hidden py-6 max-w-sm mx-auto">
-                    <h1 className="text-5xl sm:text-4xl font-bold text-gray-800 mb-3 leading-tight">
+                <div className="block md:hidden  max-w-sm mx-auto">
+                    <h1 className="text-3xl sm:text-xl font-semibold text-gray-700 leading-relaxed ">
                         Hey,
                     </h1>
                     <h1 className="text-2xl sm:text-xl font-semibold text-gray-700 leading-relaxed mb-4">
@@ -37,7 +37,7 @@ const Home = () => {
                 </div>
                 {/* Social Links and Resume */}
                 <div className="flex items-center space-x-4">
-                    <a href="https://github.com/syedsufiyan888" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 pl-4">
+                    <a href="https://github.com/syedsufiyan888" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 transition-colors duration-200 py-2">
                         <FaGithub size={32} />
                     </a>
                     <a href="https://www.linkedin.com/in/syedsufiyan888" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 transition-colors duration-200">
